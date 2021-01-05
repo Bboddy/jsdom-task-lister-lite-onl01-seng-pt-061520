@@ -1,15 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const form = document.getElementById("create-task-form");
-  const description = document.getElementById('new-task-description').value
-  let ul = document.getElementById("tasks");
-
-  function createNewTask(){
-    // var li = document.createElement('li');
-    // li.appendChild(document.createTextNode(name));
-    // ul.appendChild(li);
-    // li.innerHTML = description
-    console.log(description)
+    function createNewTask() {
+    let ul = document.getElementById("tasks");
+    let li = document.createElement('li');
+    li.appendChild(document.createTextNode(name));
+    ul.appendChild(li);
+    li.innerHTML = document.getElementById("myDes").value;
   }
-
-  form.addEventListener('submit', createNewTask);
 });
