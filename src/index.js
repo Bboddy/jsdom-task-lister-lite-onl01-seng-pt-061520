@@ -3,8 +3,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const taskDis = document.getElementById("new-task-description");
   const taskList = document.getElementById("tasks");
 
-  document.getElementByValue("Create New Task").addEventListener("click", function() {
+  createTask.addEventListener("click", function() {
     var li = document.createElement("li");
+    li.innerHTML = taskDis
     taskList.appendChild(li);
   });
 });
