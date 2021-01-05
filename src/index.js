@@ -4,11 +4,11 @@ document.addEventListener("DOMContentLoaded", () => {
   let ul = document.getElementById("tasks");
 
   function createNewTask(){
-    var li = document.createElement('li');
-    li.appendChild(document.createTextNode(name));
-    ul.appendChild(li);
-    li.innerHTML = description
-    console.log(li.innerHTML)
+    // var li = document.createElement('li');
+    // li.appendChild(document.createTextNode(name));
+    // ul.appendChild(li);
+    // li.innerHTML = description
+    console.log(description)
   }
 
   form.addEventListener('submit', createNewTask);
