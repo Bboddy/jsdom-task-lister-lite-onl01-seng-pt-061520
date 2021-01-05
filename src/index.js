@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.getElementById("create-task-form");
   const taskDis = document.getElementById("new-task-description");
-  const ul = document.getElementById("friendsList");
+  const ul = document.getElementById("taks");
 
 
   function createNewTask(){
