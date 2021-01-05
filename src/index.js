@@ -4,8 +4,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const ul = document.getElementById("tasks");
 
   function createNewTask(){
-    var li = document.createElement("li");
-    taskList.appendChild(li);
+    var li = document.createElement('li');
+    li.appendChild(document.createTextNode(name));
+    ul.appendChild(li);
     li.innerHTML = taskDis
   }
 
