@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     var li = document.createElement('li');
     li.appendChild(document.createTextNode(name));
     ul.appendChild(li);
-    li.innerHTML =
+    li.innerHTML = description
     console.log(li.innerHTML)
   }
 
