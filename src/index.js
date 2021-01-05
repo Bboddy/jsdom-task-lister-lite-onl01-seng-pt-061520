@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const taskList = document.getElementById("tasks");
 
   document.getElementByValue("Create New Task").addEventListener("click", function() {
-
+    var li = document.createElement("li");
+    taskList.appendChild(li);
   });
 });
