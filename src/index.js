@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.getElementByid("create-task-form").addEventListener("click", function() {
     var li = document.createElement("li");
-    li.innerHTML =
+    li.innerHTML = taskDis
     taskList.appendChild(li);
   });
 });
