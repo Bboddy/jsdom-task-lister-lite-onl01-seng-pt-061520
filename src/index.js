@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     li.appendChild(document.createTextNode(name));
     ul.appendChild(li);
     li.innerHTML = document.getElementById("new-task-description").innerHTML;
+    console.log(li.innerHTML)
   }
 
   form.addEventListener('submit', createNewTask);
