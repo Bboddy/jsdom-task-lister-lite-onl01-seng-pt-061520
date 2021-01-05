@@ -1,13 +1,13 @@
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.getElementById("create-task-form");
-  const description = document.getElementById('new-task-description')
+  const description = document.getElementById('new-task-description').value
   let ul = document.getElementById("tasks");
 
   function createNewTask(){
     var li = document.createElement('li');
     li.appendChild(document.createTextNode(name));
     ul.appendChild(li);
-    li.innerHTML
+    li.innerHTML =
     console.log(li.innerHTML)
   }
 
