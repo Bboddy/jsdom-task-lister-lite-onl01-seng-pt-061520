@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     var li = document.createElement('li');
     li.appendChild(document.createTextNode(name));
     ul.appendChild(li);
-    li.innerHTML = document.getElementById("new-task-description").innerHTML;
+    li.value = document.getElementById("new-task-description").innerHTML;
     console.log(li.innerHTML)
   }
 
