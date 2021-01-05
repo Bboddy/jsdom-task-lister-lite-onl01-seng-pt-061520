@@ -8,7 +8,11 @@ document.addEventListener("DOMContentLoaded", () => {
     li.innerHTML = taskDis
     taskList.appendChild(li);
   });
-
+  function createNewTask(){
+    var li = document.createElement("li");
+    taskList.appendChild(li);
+    li.innerHTML = taskDis
+  }
 
   form.addEventListener('submit', createNewTask);
 });
