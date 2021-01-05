@@ -8,4 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     li.innerHTML = taskDis
     taskList.appendChild(li);
   });
+
+
+  form.addEventListener('submit', createNewTask);
 });
